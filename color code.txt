@@ -1,0 +1,17 @@
+valerie color codes
+
+pink
+code:	#f9d9d1
+RGB code:	rgb(249, 217, 209)
+
+
+black
+code:	#201f1f
+RGB code:	rgb(32, 31, 31)
+
+
+golden
+code:	#d4ac4c
+RGB code:	rgb(212, 172, 76)
+
+

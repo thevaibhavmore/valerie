@@ -1,0 +1,7 @@
+[24-Mar-2020 13:48:57 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 73
+[24-Mar-2020 13:52:31 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 73
+[24-Mar-2020 14:09:06 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 73
+[24-Mar-2020 14:22:54 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 73
+[24-Mar-2020 14:42:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 73
+[25-Mar-2020 00:09:51 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 76
+[11-Apr-2020 16:04:20 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/f4m038fgx12u/nazimbrothers.shlokcare.com/processreq/getlistroducts.php on line 76
