@@ -1,5 +1,5 @@
 <!-- footer -->
-    <footer class="footer-light footer-christmas">
+    <footer class="footer-light footer-christmas" data-body="footer">
         <img src="assets/images/christmas/footer-bg.jpg" class="bg-img img-fluid" alt="">
         
         <section class="section-b-space light-layout">
@@ -238,6 +238,7 @@
         $(window).on('load', function () {
             $('#exampleModal').modal('show');
         });
+
         function openSearch() {
             document.getElementById("search-overlay").style.display = "block";
         }
@@ -245,6 +246,36 @@
         function closeSearch() {
             document.getElementById("search-overlay").style.display = "none";
         }
+
+        $('#enter--website').on('click', function(e){
+            e.preventDefault();
+
+            $("#welcomeBanner").addClass('animate__backOutUp').fadeOut();
+        });
+
+        $("[data-heading]").on('click', function(event) {
+            // debugger;
+            var target = $(this).attr("data-heading");
+            // Make sure this.hash has a value before overriding default behavior
+            if (target !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                var target = $(this).attr("data-heading");
+                // Store hash
+                // var hash = target;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $("[data-body='"+target+"']").offset().top
+                }, 500, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = target;
+                });
+            } // End if
+        });
     </script>
 
 </body>
